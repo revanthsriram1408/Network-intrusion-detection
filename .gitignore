@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/network_flows.csv
+outputs/best_model.joblib
+*.pyc
