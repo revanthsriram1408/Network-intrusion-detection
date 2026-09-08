@@ -1,0 +1,37 @@
+{
+  "dataset_rows": 120000,
+  "training_rows": 96000,
+  "test_rows": 24000,
+  "selection_metric": "f1",
+  "selected_model": "Random Forest",
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.8405,
+      "precision": 0.677,
+      "recall": 0.8413,
+      "f1": 0.7502,
+      "roc_auc": 0.9152
+    },
+    "Decision Tree": {
+      "accuracy": 0.933,
+      "precision": 0.8657,
+      "recall": 0.9054,
+      "f1": 0.8851,
+      "roc_auc": 0.9368
+    },
+    "Random Forest": {
+      "accuracy": 0.9728,
+      "precision": 0.9619,
+      "recall": 0.9418,
+      "f1": 0.9517,
+      "roc_auc": 0.9818
+    },
+    "Linear SVM": {
+      "accuracy": 0.8407,
+      "precision": 0.677,
+      "recall": 0.8432,
+      "f1": 0.751,
+      "roc_auc": 0.9152
+    }
+  }
+}
